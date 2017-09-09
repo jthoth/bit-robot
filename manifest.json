@@ -1,0 +1,19 @@
+{
+  "name": "bit-robot",
+  "description": "I'm a robot",
+  "version": "2.0",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "alarms"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "I'm bitRobot"
+  },
+
+  "manifest_version": 2
+}
