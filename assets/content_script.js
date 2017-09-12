@@ -1,5 +1,7 @@
 
-var time_default = 40000;
+console.log(time_default);
+
+var time_default = time_default * 1000 ;
 
 function open_ad(url){
 
